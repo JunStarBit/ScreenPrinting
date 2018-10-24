@@ -121,7 +121,7 @@ nav{
 }
 
 #morehistory{
-	background-image: url(../img/../img/JapaneseScreenPrinting.jpg);
+	background-image: url(../img/JapaneseScreenPrinting.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -140,7 +140,7 @@ nav{
 }
 
 #benefits{
-	background-image: url(../img/../img/PrintExample.jpg);
+	background-image: url(../img/PrintExample.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -154,6 +154,19 @@ nav{
 
 #benefits h3{
 	font-size: 40px;
+}
+
+#aplications{
+	padding: 0px 30px;
+}
+
+#areas{
+	background-image: url(../img/screenprinting-website.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color:#FFFFFF;
+	padding: 80px;
 }
 
 .slave-overlay{
@@ -180,23 +193,75 @@ nav{
 	position: relative;
 }
 
-#versatility img{
-	height: 300px;
-	width: 60%;
+#equipment img{
+	height: 550px;
 }
 
-#versatility i, #versatility p{
+#equipmet i{
 	color: #FFFFFF;
 }
 
-#versatility{
-	text-align: center;
+#equipment p{
 	color: #FFFFFF;
-	background-color: #252525;
-	padding-bottom: 20px;
+	font-size: 12px;
 }
 
 #equipment{
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #252525;
+	padding-right: 40px;
+}
+
+#honduras{
+	background-image: url(../img/ScreenPrintOne.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color:#FFFFFF;
+	text-align: center;
+	padding: 100px 0;
+	font-size: 15px;
+}
+
+#learnvids h1{
+	text-align: center;
+}
+
+#learnvids img{
+	height: 400px;
+	width: 100%;
+}
+
+#learnvids a, #learnvids i{
+	color: #FFFFFF;
+}
+
+.slave-overlay{
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(0,113,115,0.70);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	transition: all ease-in-out 0.5s;
+}
+
+.overlay:hover .slave-overlay{
+	opacity: 1;
+	transition: all ease-in-out 0.5s;
+}
+
+.overlay{
+	position: relative;
+}
+
+#contact{
 	background-image: url(../img/ocean-illustration.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -206,11 +271,11 @@ nav{
 	height: 400px;
 }
 
-#equipment h1{
+#contact h1{
 	font-size: 30px;
 }
 
-#equipment .btn{
+#contact .btn{
 	margin-top: 15px;
 }
 
