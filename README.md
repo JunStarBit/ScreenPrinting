@@ -1,2 +1,2 @@
-# ScreenPrinting
-Website For Screen Printing Information
+# JunStarBitPortfolio
+Junnior Escoto's Website Portfolio

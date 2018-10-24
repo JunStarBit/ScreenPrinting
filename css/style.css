@@ -1,0 +1,254 @@
+body{
+		font-family: "Raleway", Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+		font-size: 16px;
+		color: #009BBB;
+}
+
+nav{
+		padding: 10px 0px;
+}
+
+.navbar{
+		background-color: #252525;
+}
+
+.paintblue{
+	color: #009BBB;
+}
+
+.navbar-header img{
+	height: 50px;
+}
+
+#intro{
+	background-image: url(../img/artist-workspace.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color:#FFFFFF;
+	text-align: center;
+	padding: 120px 0;
+	font-size: 10px;
+}
+
+.sectitle{
+	font-size: 70px;
+	text-transform: capitalize;
+	font-weight: bolder;
+}
+
+.sectisub{
+	font-size: 40px;
+	text-transform: capitalize;
+	font-weight: bolder;
+}
+
+.barra{
+	background-color: #00A3FF;
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 3px;
+}
+
+.barra-izquierda{
+	display: inline-block;
+}
+
+#intro i{
+	color: #00A3FF;
+	text-align: center;
+}
+
+#intro p, #about p{
+	font-size: 15px;
+}
+
+#steps{
+	padding-left: 20px;
+}
+
+#owlcarousel{
+	background-image: url(../img/Screenprint_6.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color:#FFFFFF;
+	text-align: center;
+	padding: 20px 0;
+	height: 500px;	
+}
+
+#owlcarousel img{
+	height: 250px;
+	margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+
+.btn-star{
+	background-color: #00A3FF;
+	color: #ffffff;
+	border-radius: 20px;
+	border: 0;
+	text-transform: uppercase;
+	padding: 10px 30px;
+	font-weight: bolder;
+}
+
+.btn-mark{
+	background-color: rgba(0,0,0,0.20);
+	color: #ffffff;
+	border-radius: 20px;
+	border-color: #00A3FF;
+	border: solid;
+	text-transform: uppercase;
+	padding: 10px 30px;
+	font-weight: bolder;
+}
+
+#history img{
+	height: 550px;
+}
+
+#history h1{
+	font-size: 50px;
+	font-weight: bolder;
+}
+
+#history p{
+	padding-right: 15px;
+}
+
+#morehistory{
+	background-image: url(../img/../img/JapaneseScreenPrinting.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color:#FFFFFF;
+	text-align: center;
+	padding: 100px 0;
+	font-size: 15px;
+}
+
+#patente{
+	padding-left: 30px;
+}
+
+#patente p{
+	font-size: 15px;
+}
+
+#benefits{
+	background-image: url(../img/../img/PrintExample.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color:#FFFFFF;
+	padding: 80px 0;
+}
+
+#benefits h1{
+	font-size: 60px;
+}
+
+#benefits h3{
+	font-size: 40px;
+}
+
+.slave-overlay{
+	position: absolute;
+	left: 20%;
+	right: 20%;
+	height: 300px;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(0,179,255,0.70);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	transition: all ease-in-out 0.5s;
+}
+
+.overlay:hover .slave-overlay{
+	opacity: 1;
+	transition: all ease-in-out 0.5s;
+}
+
+.overlay{
+	position: relative;
+}
+
+#versatility img{
+	height: 300px;
+	width: 60%;
+}
+
+#versatility i, #versatility p{
+	color: #FFFFFF;
+}
+
+#versatility{
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #252525;
+	padding-bottom: 20px;
+}
+
+#equipment{
+	background-image: url(../img/ocean-illustration.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	padding-bottom: 20px;
+	height: 400px;
+}
+
+#equipment h1{
+	font-size: 30px;
+}
+
+#equipment .btn{
+	margin-top: 15px;
+}
+
+.container-login{
+	height: 400px;
+	width: 70%;
+	background-color: rgba(0,0,0,0.70);
+	align-content: center;
+	align-items: center;
+	z-index: 1;
+}
+
+footer{
+	background-color: #252525;
+	text-align: center;
+}
+
+footer i{
+	font-size: 35px;
+	padding-left: 5px;
+}
+
+footer img{
+	height: 100px;
+}
+
+/* Diseño Tableta y Móvil (xs y sm)*/
+@media (max-width:768px){
+	.slave-overlay{
+	display: none;
+}
+
+.overlay:hover .slave-overlay{
+	display: none;
+}
+
+.overlay{
+	display: none;
+}
+}
+
